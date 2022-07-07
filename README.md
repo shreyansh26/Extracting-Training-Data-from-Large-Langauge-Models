@@ -1,6 +1,6 @@
 # Extracting Training Data from Large Langauge Models
 
-A more complete implementation of the "Extracting Training Data from Large Language Models" paper by Carlini et al. The [paper](https://arxiv.org/abs/2012.07805) already has an official implementation - [https://github.com/ftramer/LM_Memorization](https://github.com/ftramer/LM_Memorization).
+A more complete implementation of the "Extracting Training Data from Large Language Models" paper by Carlini et al. The [paper](https://arxiv.org/abs/2012.07805) already has an official implementation - [https://github.com/ftramer/LM_Memorization](https://github.com/ftramer/LM_Memorization), from which I have borrowed parts of the code, at the same time improving the readability of a few functions.
 
 However, the official repository does not cover - 
 - Sampling Method - Sampling With A Decaying Temperature (Section 5.1.1 of the paper)
