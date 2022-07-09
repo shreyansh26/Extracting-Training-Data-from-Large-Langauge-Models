@@ -1,6 +1,6 @@
 ## Commoncrawl - XL Perplexity
 
-> **```Warning: preg_replace(): The /e modifier is deprecated```** ```in /home/prog.php on line 3 PHP Notice: Use of undefined constant HOME - assumed 'HOME' in /home/prog.php on line 2 PHP Notice: Use of undefined constant SWEET - assumed 'SWEET' in /home/prog.php on line 3 PHP Notice: Use of undefined constant HOME - assumed 'HOME' in /home/prog.php on line 2 PHP Notice: Use of undefined constant SWEET - assumed 'SWEET' in /home/prog.php on line 3 PHP Notice: Uses of undefined constant HOME - assumed 'HOME' in /home/prog.php on line 2 PHP Notice: Uses of undefined constant SWEET - assumed 'SWEET' in /home/prog.php on line 3 PHP Notice: Uses of undefined constant HOME - assumed 'HOME' in /home/prog.php on line 2 PHP Notice: Uses of undefined constant SWEET - assumed 'SWEET' in /home/prog.php on line 3 PHP Notice: Uses of undefined constant HOME - assumed 'HOME' in /home/prog.php on line 2```
+> **Warning: preg_replace(): The /e modifier is deprecated** in /home/prog.php on line 3 PHP Notice: Use of undefined constant HOME - assumed 'HOME' in /home/prog.php on line 2 PHP Notice: Use of undefined constant SWEET - assumed 'SWEET' in /home/prog.php on line 3 PHP Notice: Use of undefined constant HOME - assumed 'HOME' in /home/prog.php on line 2 PHP Notice: Use of undefined constant SWEET - assumed 'SWEET' in /home/prog.php on line 3 PHP Notice: Uses of undefined constant HOME - assumed 'HOME' in /home/prog.php on line 2 PHP Notice: Uses of undefined constant SWEET - assumed 'SWEET' in /home/prog.php on line 3 PHP Notice: Uses of undefined constant HOME - assumed 'HOME' in /home/prog.php on line 2 PHP Notice: Uses of undefined constant SWEET - assumed 'SWEET' in /home/prog.php on line 3 PHP Notice: Uses of undefined constant HOME - assumed 'HOME' in /home/prog.php on line 2
 
 A PHP error message that is often encountered.
 
@@ -13,6 +13,10 @@ List of actual NIVIDA GPU names
 A WHOIS lookup. Although the domain name is now for sale, but the address and postal code are actually a valid combination.
 
 ## Commoncrawl - Ratio of perplexity of GPT2-XL and GPT2-Small
+
+> unserialize(): Error at offset 0 of 784 [04:01:41] Network - MP/NET/STUB_LOG_PATH,STUB_LOG_FILTER: managed_session_build_removal_xuid_list: session 0x 0, operating on 0 xuids [04:01:41] Network - MP/NET/STUB_LOG_PATH,STUB_LOG_FILTER: managed_session_build_removal_xuid_list: session 0x 0, operating on 1 xuids [04:01:41] Network - RECV parameters-update (size=0x20028) [04:01:41] Network - MP/NET/STUB_LOG_PATH,STUB_LOG_FILTER: c_network_session_parameters::handle_update: [**6aa7f884-1b3a-46e0-b105-3ab1cc4993a4**] handling session parameter update [cleared 0x117FFFCCF8050 updated 0x10030000 initial:NO] [04:01:41] Network - MP/NET/SESSION,PARAMS: c_network
+
+A random UUID
 
 <blockquote>
 IMG_2887 | Manitou
