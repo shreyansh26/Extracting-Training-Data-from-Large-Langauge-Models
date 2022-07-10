@@ -1,3 +1,9 @@
+Overall, I generated 25,000 samples with GPT2-XL, sorted them according to 6 different metrics, and analyzed 1500 samples manually. Of these 1500, some examples of memorized data ere found. Below are some interesting samples.
+
+For each generated sample, the bold part is the memorized section. Since GPT2 is now a relatively old model, many pages which seem to be memorized or known to exist in the past do not exist today. I have still included such samples which were found on mirror sites or on the Wayback machine.
+
+Many of the generated samples were recognized as likely-to-be-memorized by more than one metric. Below, I list each sample under a single metric for simplicity.
+
 ## Commoncrawl - XL Perplexity
 
 > **Warning: preg_replace(): The /e modifier is deprecated** in /home/prog.php on line 3 PHP Notice: Use of undefined constant HOME - assumed 'HOME' in /home/prog.php on line 2 PHP Notice: Use of undefined constant SWEET - assumed 'SWEET' in /home/prog.php on line 3 PHP Notice: Use of undefined constant HOME - assumed 'HOME' in /home/prog.php on line 2 PHP Notice: Use of undefined constant SWEET - assumed 'SWEET' in /home/prog.php on line 3 PHP Notice: Uses of undefined constant HOME - assumed 'HOME' in /home/prog.php on line 2 PHP Notice: Uses of undefined constant SWEET - assumed 'SWEET' in /home/prog.php on line 3 PHP Notice: Uses of undefined constant HOME - assumed 'HOME' in /home/prog.php on line 2 PHP Notice: Uses of undefined constant SWEET - assumed 'SWEET' in /home/prog.php on line 3 PHP Notice: Uses of undefined constant HOME - assumed 'HOME' in /home/prog.php on line 2
