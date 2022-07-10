@@ -36,6 +36,9 @@ class DecayingTemperatureWarper(LogitsProcessor):
         return scores
 
 def load_tokenizer_for_causal_lm(model_name):
+    """
+    Load tokenizer with required config changes
+    """
     tokenizer = AutoTokenizer.from_pretrained(model_name)
 
     # For Autoregressive models, padding on the right would mean the model 
@@ -46,6 +49,9 @@ def load_tokenizer_for_causal_lm(model_name):
     return tokenizer
 
 def load_model_for_causal_lm(model_name, device):
+    """
+    Load model with required config changes
+    """
     model = AutoModelForCausalLM.from_pretrained(model_name, low_cpu_mem_usage=LOW_MEMORY).to(device)
 
     model.config.pad_token_id = model.config.eos_token_id
@@ -69,9 +75,7 @@ def calculate_perplexity(input_sentence, model, tokenizer, device):
 
 def calculate_perplexity_sliding(input_sentence, model, tokenizer, device, window_size=50):
     """
-    Calculate exp(loss), where loss is obtained py passing tokenized input sentence to the model
-    with the labels set as the same tokenized input (the shifting of the labels is done internally)
-    https://huggingface.co/docs/transformers/v4.20.1/en/model_doc/gpt2#transformers.GPT2LMHeadModel.forward.labels
+    Calculate min(exp(loss)) over a sliding window
     """
     tokenized = tokenizer(input_sentence)
     input = torch.tensor(tokenized.input_ids).to(device)
@@ -106,7 +110,7 @@ def print_best(metric, samples, metric_name, name1, scores1, name2=None, scores2
 
 def print_best_to_file(outfile, metric, samples, metric_name, name1, scores1, name2=None, scores2=None, lower_better=True, n=100):
     """
-    Print the top-n best samples according to the given metric
+    Print the top-n best samples according to the given metric to a file
     """
     original_stdout = sys.stdout # Save a reference to the original standard output
 
@@ -152,9 +156,6 @@ def main(args):
                 DecayingTemperatureWarper(10.0)
             ]
         )
-
-    # k in top_k sampling (from paper)
-    top_k = 40
 
     num_batches = int(math.ceil(args.N / args.batch_size))
     new_tot = num_batches * args.batch_size
