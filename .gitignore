@@ -131,3 +131,9 @@ dmypy.json
 Samples1.md
 Samples2.md
 Samples3.md
+extracted_data
+common_crawl_new_but_bad
+common_crawl_old_but_good
+temp_decay_pure
+temp_decay_top_n
+top-n
