@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+Samples1.md
+Samples2.md
+Samples3.md
