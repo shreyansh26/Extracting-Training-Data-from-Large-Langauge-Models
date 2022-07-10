@@ -74,4 +74,4 @@ All the generated sequences have a final length of atmost 256 tokens.
 
 ## Sample outputs
 
-Some interesting data that we extracted from GPT-2 can be found [here](Samples.md).
+Some interesting outputs that were extracted from GPT-2 can be found [here](Samples.md).
